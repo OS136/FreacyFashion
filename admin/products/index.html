@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Administration</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="MainHeaderSection">
+      <h1>Administration</h1>
+    </header>
+    <main class="AdminContainer">
+      <aside class="SiderbarContainer">
+        <ul class="SiteBarTopic">
+          <li>
+            <a href="#">Produkter</a>
+          </li>
+        </ul>
+      </aside>
+      <!-- Main box -->
+      <div class="MainSectionProdukter">
+        <section class="ProdukuerButton">
+          <h2>Produkter</h2>
+
+          <div>
+            <a class="ButtonNew" href="/admin/products/new.html">
+              Ny produkt
+            </a>
+          </div>
+        </section>
+
+        <table class="ProductTableContainer">
+          <thead>
+            <tr>
+              <th>Namn</th>
+              <th>SKU</th>
+              <th>Pris</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Svart T-shirt</td>
+              <td>AAA111</td>
+              <td>100 SEK</td>
+            </tr>
+            <tr>
+              <td>Vit T-shirt</td>
+              <td>AAA222</td>
+              <td>200 SEK</td>
+            </tr>
+            <tr>
+              <td>...</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
