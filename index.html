@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,42 +20,62 @@
   </head>
   <body>
     <header>
-      <section class="SiteHeaderContainer">
-        <section class="SiteHeader">
+      <div class="SiteHeaderContainer">
+        <div class="SiteHeader">
           <div class="LogoContainer">
-            <img class="logo" src="./Images/freaky_fashion logo.png" />
+            <img
+              alt="image"
+              class="logo"
+              src="./Images/freaky_fashion_logo.png"
+            />
           </div>
-          <span class="SearchAndIcins">
-            <article class="SearchContainer">
+          <div class="SearchAndIcons">
+            <div class="SearchContainer">
+              <i class="bi bi-search"></i>
               <input
                 type="text"
                 name="klädersektionerna"
                 placeholder="Sök produkt"
               />
-            </article>
+            </div>
 
             <ul class="icons">
-              <a href="#"><i class="bi bi-heart-fill"></i></a>
-              <a href="#"><i class="bi bi-basket"></i></a>
+              <li>
+                <a href="#"><i class="bi bi-heart-fill"></i></a>
+              </li>
+
+              <li>
+                <a href="#"><i class="bi bi-basket"></i></a>
+              </li>
             </ul>
-          </span>
-        </section>
+          </div>
+        </div>
         <br />
         <nav>
           <ul class="Menu">
-            <a href="#">Nyheter</a>
-            <a id="PageCategory" href="#">Kategorier</a>
-            <a href="#">Toplistan</a>
-            <a href="#">Rea</a>
-            <a href="#">Kampanjer</a>
+            <li>
+              <a href="#">Nyheter</a>
+            </li>
+            <li>
+              <a id="PageCategory" href="#">Kategorier</a>
+            </li>
+            <li>
+              <a href="#">Toplistan</a>
+            </li>
+            <li>
+              <a href="#">Rea</a>
+            </li>
+            <li>
+              <a href="#">Kampanjer</a>
+            </li>
           </ul>
         </nav>
-      </section>
+      </div>
     </header>
 
     <main>
       <!-- main content -->
-      <section class="MainContainer">
+      <div class="MainContainer">
         <article>
           <h1>Lorem ipsum dolor</h1>
           <p>
@@ -67,62 +88,62 @@
           src="./Images/iStock-654407498.jpg"
           alt="The main products"
         />
-      </section>
+      </div>
 
-      <section class="ClassicSection">
+      <div class="ClassicSection">
         <a class="PicBox">
           <div class="PicContainer">
+            <h2 class="CenterPosition">Lorem ipsum dolor</h2>
             <img
               src="./Images/iStock-480767428.jpg"
               alt="Fashion Outlook Ideas"
               class="PicGrid"
             />
-            <h2 class="CenterPosition">Lorem ipsum dolor</h2>
           </div>
         </a>
 
         <a class="PicBox">
           <div class="PicContainer">
+            <h2 class="CenterPosition">Lorem ipsum dolor</h2>
             <img
               src="./Images/iStock-605984452.jpg"
               alt="Man Fashion"
               class="PicGrid"
             />
-            <h2 class="CenterPosition">Lorem ipsum dolor</h2>
           </div>
         </a>
 
         <a class="PicBox">
           <div class="PicContainer">
+            <h2 class="CenterPosition">Lorem ipsum dolor</h2>
             <img
               src="./Images/iStock-970937374.jpg"
               alt="Woman fashion"
               class="PicGrid"
             />
-            <h2 class="CenterPosition">Lorem ipsum dolor</h2>
           </div>
         </a>
-      </section>
+      </div>
 
       <!-- products section -->
-      <section class="ProductContainer">
+      <div class="ProductContainer">
         <!-- barn 1 -->
         <div class="ProductItem">
-          <section class="ProductItemContainer">
+          <div class="ProductItemContainer">
             <!-- product info -->
-            <article class="ProductInfoContainer">
+            <div class="ProductInfoContainer">
               <a href="http://localhost:5500/product-details.html">
-                <section class="ProductItemTypeAndPrice">
+                <div class="ProductItemTypeAndPrice">
                   <span class="productTitle">Svart T-Shirt</span>
                   <span class="productPrice">199 sek</span>
-                </section>
+                </div>
               </a>
               <p class="ProductBrand">Levis</p>
-            </article>
+            </div>
             <!-- product card -->
             <div class="ProductImageContainer">
               <!-- product image -->
-              <section class="ProductImageItem">
+              <div class="ProductImageItem">
                 <a
                   href="http://localhost:5500/product-details.html"
                   class="ProductImage"
@@ -142,7 +163,6 @@
                     xmlns="http://www.w3.org/2000/svg"
                     width="22"
                     height="22"
-                    class="bi bi-heart-fill"
                     viewBox="0 0 16 16"
                     fill="black"
                   >
@@ -153,27 +173,27 @@
                     />
                   </svg>
                 </a>
-              </section>
+              </div>
             </div>
-          </section>
+          </div>
         </div>
         <!-- barn 2 -->
         <div class="ProductItem">
-          <section class="ProductItemContainer">
+          <div class="ProductItemContainer">
             <!-- product info -->
-            <article class="ProductInfoContainer">
+            <div class="ProductInfoContainer">
               <a href="http://localhost:5500/product-details.html">
-                <section class="ProductItemTypeAndPrice">
+                <div class="ProductItemTypeAndPrice">
                   <span class="productTitle">Svart T-Shirt</span>
                   <span class="productPrice">199 sek</span>
-                </section>
+                </div>
               </a>
               <p class="ProductBrand">Levis</p>
-            </article>
+            </div>
             <!-- product card -->
             <div class="ProductImageContainer">
               <!-- product image -->
-              <section class="ProductImageItem">
+              <div class="ProductImageItem">
                 <a
                   href="http://localhost:5500/product-details.html"
                   class="ProductImage"
@@ -198,27 +218,27 @@
                     />
                   </svg>
                 </a>
-              </section>
+              </div>
             </div>
-          </section>
+          </div>
         </div>
         <!-- barn 3 -->
         <div class="ProductItem">
-          <section class="ProductItemContainer">
+          <div class="ProductItemContainer">
             <!-- product info -->
-            <article class="ProductInfoContainer">
+            <div class="ProductInfoContainer">
               <a href="http://localhost:5500/product-details.html">
-                <section class="ProductItemTypeAndPrice">
+                <div class="ProductItemTypeAndPrice">
                   <span class="productTitle">Svart T-Shirt</span>
                   <span class="productPrice">199 sek</span>
-                </section>
+                </div>
               </a>
               <p class="ProductBrand">Levis</p>
-            </article>
+            </div>
             <!-- product card -->
             <div class="ProductImageContainer">
               <!-- product image -->
-              <section class="ProductImageItem">
+              <div class="ProductImageItem">
                 <a
                   href="http://localhost:5500/product-details.html"
                   class="ProductImage"
@@ -243,27 +263,27 @@
                     />
                   </svg>
                 </a>
-              </section>
+              </div>
             </div>
-          </section>
+          </div>
         </div>
         <!-- barn 4 -->
         <div class="ProductItem">
-          <section class="ProductItemContainer">
+          <div class="ProductItemContainer">
             <!-- product info -->
-            <article class="ProductInfoContainer">
+            <div class="ProductInfoContainer">
               <a href="http://localhost:5500/product-details.html">
-                <section class="ProductItemTypeAndPrice">
+                <div class="ProductItemTypeAndPrice">
                   <span class="productTitle">Svart T-Shirt</span>
                   <span class="productPrice">199 sek</span>
-                </section>
+                </div>
               </a>
               <p class="ProductBrand">Levis</p>
-            </article>
+            </div>
             <!-- product card -->
             <div class="ProductImageContainer">
               <!-- product image -->
-              <section class="ProductImageItem">
+              <div class="ProductImageItem">
                 <a
                   href="http://localhost:5500/product-details.html"
                   class="ProductImage"
@@ -288,27 +308,27 @@
                     />
                   </svg>
                 </a>
-              </section>
+              </div>
             </div>
-          </section>
+          </div>
         </div>
         <!-- barn 5 -->
         <div class="ProductItem">
-          <section class="ProductItemContainer">
+          <div class="ProductItemContainer">
             <!-- product info -->
-            <article class="ProductInfoContainer">
+            <div class="ProductInfoContainer">
               <a href="http://localhost:5500/product-details.html">
-                <section class="ProductItemTypeAndPrice">
+                <div class="ProductItemTypeAndPrice">
                   <span class="productTitle">Svart T-Shirt</span>
                   <span class="productPrice">199 sek</span>
-                </section>
+                </div>
               </a>
               <p class="ProductBrand">Levis</p>
-            </article>
+            </div>
             <!-- product card -->
             <div class="ProductImageContainer">
               <!-- product image -->
-              <section class="ProductImageItem">
+              <div class="ProductImageItem">
                 <a
                   href="http://localhost:5500/product-details.html"
                   class="ProductImage"
@@ -333,27 +353,27 @@
                     />
                   </svg>
                 </a>
-              </section>
+              </div>
             </div>
-          </section>
+          </div>
         </div>
         <!-- barn 6 -->
         <div class="ProductItem">
-          <section class="ProductItemContainer">
+          <div class="ProductItemContainer">
             <!-- product info -->
-            <article class="ProductInfoContainer">
+            <div class="ProductInfoContainer">
               <a href="http://localhost:5500/product-details.html">
-                <section class="ProductItemTypeAndPrice">
+                <div class="ProductItemTypeAndPrice">
                   <span class="productTitle">Svart T-Shirt</span>
                   <span class="productPrice">199 sek</span>
-                </section>
+                </div>
               </a>
               <p class="ProductBrand">Lacoste</p>
-            </article>
+            </div>
             <!-- product card -->
             <div class="ProductImageContainer">
               <!-- product image -->
-              <section class="ProductImageItem">
+              <div class="ProductImageItem">
                 <a
                   href="http://localhost:5500/product-details.html"
                   class="ProductImage"
@@ -378,27 +398,27 @@
                     />
                   </svg>
                 </a>
-              </section>
+              </div>
             </div>
-          </section>
+          </div>
         </div>
         <!-- barn 7 -->
         <div class="ProductItem">
-          <section class="ProductItemContainer">
+          <div class="ProductItemContainer">
             <!-- product info -->
-            <article class="ProductInfoContainer">
+            <div class="ProductInfoContainer">
               <a href="http://localhost:5500/product-details.html">
-                <section class="ProductItemTypeAndPrice">
+                <div class="ProductItemTypeAndPrice">
                   <span class="productTitle">Svart T-Shirt</span>
                   <span class="productPrice">199 sek</span>
-                </section>
+                </div>
               </a>
               <p class="ProductBrand">Levis</p>
-            </article>
+            </div>
             <!-- product card -->
             <div class="ProductImageContainer">
               <!-- product image -->
-              <section class="ProductImageItem">
+              <div class="ProductImageItem">
                 <a
                   href="http://localhost:5500/product-details.html"
                   class="ProductImage"
@@ -423,27 +443,27 @@
                     />
                   </svg>
                 </a>
-              </section>
+              </div>
             </div>
-          </section>
+          </div>
         </div>
         <!-- barn 8 -->
         <div class="ProductItem">
-          <section class="ProductItemContainer">
+          <div class="ProductItemContainer">
             <!-- product info -->
-            <article class="ProductInfoContainer">
+            <div class="ProductInfoContainer">
               <a href="http://localhost:5500/product-details.html">
-                <section class="ProductItemTypeAndPrice">
+                <div class="ProductItemTypeAndPrice">
                   <span class="productTitle">Svart T-Shirt</span>
                   <span class="productPrice">199 sek</span>
-                </section>
+                </div>
               </a>
               <p class="ProductBrand">Levis</p>
-            </article>
+            </div>
             <!-- product card -->
             <div class="ProductImageContainer">
               <!-- product image -->
-              <section class="ProductImageItem">
+              <div class="ProductImageItem">
                 <a
                   href="http://localhost:5500/product-details.html"
                   class="ProductImage"
@@ -468,14 +488,14 @@
                     />
                   </svg>
                 </a>
-              </section>
+              </div>
             </div>
-          </section>
+          </div>
         </div>
-      </section>
+      </div>
 
       <!-- Delivery section -->
-      <section class="DeliveryBadge">
+      <div class="DeliveryBadge">
         <a class="DeliveryBadgeItem">
           <div class="DeliveryBadgeItemContent">
             <svg
@@ -484,7 +504,6 @@
               width="16"
               height="16"
               fill="currentColor"
-              class="bi bi-globe-europe-africa"
               viewBox="0 0 16 16"
             >
               <path
@@ -504,7 +523,6 @@
               width="16"
               height="16"
               fill="currentColor"
-              class="bi bi-airplane-engines-fill"
               viewBox="0 0 16 16"
             >
               <path
@@ -522,7 +540,6 @@
               width="16"
               height="16"
               fill="currentColor"
-              class="bi bi-shield-shaded"
               viewBox="0 0 16 16"
             >
               <path
@@ -541,7 +558,6 @@
               width="16"
               height="16"
               fill="currentColor"
-              class="bi bi-emoji-smile"
               viewBox="0 0 16 16"
             >
               <path
@@ -554,14 +570,14 @@
             <span class="DeliveryBadgeItemContentText">Nyheter varje dag</span>
           </div>
         </a>
-      </section>
+      </div>
     </main>
 
     <!-- FOOter meny -->
     <footer>
       <article class="FooterMenu">
         <!-- kolumn 1 -->
-        <span class="ColumnFooterOne">
+        <div class="ColumnFooterOne">
           <h4>Shopping</h4>
           <ul>
             <li><a href="#">Vinterjäckor</a></li>
@@ -569,26 +585,26 @@
             <li><a href="#">Kappa</a></li>
             <li><a href="#">Trenchcoats</a></li>
           </ul>
-        </span>
+        </div>
         <!-- Kolumn 2 -->
-        <span class="ColumnFooterOne">
+        <div class="ColumnFooterOne">
           <h4>Mina sidor</h4>
           <ul>
             <li><a href="#">Mina Ordrar</a></li>
             <li><a href="#">Mitt konto</a></li>
           </ul>
-        </span>
+        </div>
         <!-- Kolumn 3 -->
-        <span class="ColumnFooterOne">
+        <div class="ColumnFooterOne">
           <h4>Kundtjänst</h4>
           <ul>
             <li><a href="#">Returnpolicy</a></li>
             <li><a href="#">Integritetspolicy</a></li>
           </ul>
-        </span>
+        </div>
       </article>
 
-      <section id="FooterAccordion">
+      <div id="FooterAccordion">
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -674,7 +690,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
       <a class="CopyRights"> &copy; Freaky Fashion</a>
     </footer>

@@ -1,17 +1,14 @@
 * {
   /* border: 1px solid red; */
 }
+
 body {
-  margin: 1%;
-  font-family: cursive;
+  font-family: sans-serif;
+  margin: 2%;
 }
 
 a:hover {
   opacity: 0.6;
-}
-
-header {
-  margin: 1%;
 }
 
 image {
@@ -29,6 +26,7 @@ a {
 
 ul {
   padding-left: 0;
+  list-style: none;
 }
 
 #FooterAccordion {
@@ -43,7 +41,7 @@ ul {
   justify-content: space-between;
 }
 /* Container input + icon */
-.SearchAndIcins {
+.SearchAndIcons {
   width: 100%;
   display: flex;
   align-items: center;
@@ -55,6 +53,7 @@ ul {
   display: inline-block;
   position: relative;
   margin-right: auto;
+  justify-content: start;
 }
 
 /* input filed */
@@ -93,10 +92,12 @@ ul {
 
 .icons {
   display: inline-flex;
-  padding-right: 12px;
   gap: 15%;
-  width: 7%;
+  width: 64px;
   text-align: right;
+  justify-content: space-between;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Meny decor<ation */
@@ -243,7 +244,7 @@ ul {
   padding: 0;
   margin: 3% 0 6% 0;
   font-weight: lighter;
-  font-size: 10px;
+  font-size: 12px;
   text-decoration: none;
 }
 
@@ -280,6 +281,12 @@ ul {
   display: flex;
   align-items: center;
 }
+
+.DeliveryBadgeItem:hover {
+  color: unset;
+  opacity: unset;
+}
+
 .DeliveryBadgeItemContent {
   display: flex;
   align-items: center;
@@ -291,6 +298,7 @@ ul {
 }
 
 .DeliveryBadgeItemContentText {
+  text-wrap: nowrap;
   flex: 1 1 80%;
   padding: 5%;
 }
@@ -298,10 +306,12 @@ ul {
 /* Footer styling */
 footer {
   background-color: gainsboro;
-  margin-bottom: 5%;
+  margin-bottom: 24px;
 }
+
 /* Columns Styling */
 .FooterMenu {
+  padding-top: 32px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -319,8 +329,10 @@ footer {
 
 /* remive space between text header and colum */
 .ColumnFooterOne h4 {
-  margin-bottom: 0%;
+  margin-right: 32px;
+  margin-bottom: 16px;
 }
+
 /* Remove underline and place text exactly in line with text header */
 .ColumnFooterOne a {
   text-decoration: none;
@@ -368,7 +380,7 @@ footer {
   }
 
   .MainImage {
-    width: 98%;
+    width: 100%;
     height: fit-content;
   }
   .ClassicSection {
@@ -411,25 +423,27 @@ footer {
     min-width: 300px;
     object-fit: cover;
   }
-  .SearchAndIcins {
-    text-align: left;
-    display: flex;
+
+  .SearchAndIcons {
     margin: 0;
+    gap: 8%;
   }
 
   .SearchContainer {
-    flex: 0 0 70%;
+    align-self: start;
+    flex: 1;
   }
+
+  .icons {
+    font-size: 24px;
+    flex: 0 0 80px;
+  }
+
   .SearchContainer input {
     height: 40px;
     border-radius: 30px;
     border: 1px solid #000000;
     font-size: 20px;
-  }
-
-  .icons {
-    flex: 1 1 30%;
-    gap: 20%;
   }
 
   .Menu {
@@ -449,7 +463,7 @@ footer {
     flex-direction: column-reverse;
   }
   .MainImage {
-    width: 98%;
+    width: 100%;
     height: fit-content;
   }
 
@@ -467,6 +481,7 @@ footer {
   .DeliveryBadgeItemContentPic {
     flex: none;
   }
+
   .FooterMenu {
     display: none;
     background-color: unset;
@@ -484,5 +499,11 @@ footer {
     list-style-type: none;
     padding-left: 0%;
     margin: 0%;
+  }
+
+  .CopyRights {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 32px;
   }
 }
