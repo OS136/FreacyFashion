@@ -103,6 +103,8 @@ ul {
 /* Meny decor<ation */
 
 .Menu {
+  display: flex;
+  gap: 16px;
   padding-left: 0;
 }
 
@@ -448,6 +450,7 @@ footer {
 
   .Menu {
     display: flex;
+    gap: 4px;
     flex-direction: column;
   }
 
